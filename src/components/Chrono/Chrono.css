@@ -1,0 +1,34 @@
+.chrono{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    position: fixed;
+    bottom:0%;
+}
+
+.chrono > .btns-chrono{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.chrono > .btns-chrono > button{
+    background-color: #022748;
+    color: #E4F6F7;
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #022748, 0 0 20px #022748, 0 0 20px black, 0 0 20px black;
+}
+.time{
+    font-family: 'Doctor Who', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #E4F6F7;
+    text-shadow: 0 0 10px black, 0 0 20px #022748;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/doctor-who');
+@import url('https://fonts.cdnfonts.com/css/axiforma');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+button{
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: 'Doctor Who', sans-serif;
+  font-size: 20px;
+
+}
+

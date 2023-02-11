@@ -1,0 +1,90 @@
+.App{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr,
+                        1fr, 
+                        1fr;
+}
+
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #022748;
+    color: aliceblue;
+    padding: 0 3rem;
+    font-family: 'Doctor Who', sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.1rem;  
+    
+}
+@media (max-width:600px){
+    nav{
+        font-size: 20px;
+        padding: 0 1rem;
+    }
+}
+
+nav > a{
+    text-decoration: none;
+    color: #E4F6F7;
+    text-shadow: 0 0 20px #E4F6F7;
+    
+}
+nav >a:active{
+    text-shadow: 0 0 20px #E4F6F7, 0 0 10px #CB5409;
+}
+
+main{
+    background-image: url('https://glamadelaide.com.au/wp-content/uploads/2021/11/stars-1.jpeg');
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+main >.diverror{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+main >div>img{
+    height: 150px;
+    filter: invert(100%) contrast(100%);
+}
+main> div>.error{
+    font-weight: 400;
+    font-size: 30px;
+  }
+main>span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 20%;
+}
+main >span>img{
+    filter: invert(90%);
+    width: 55px;    
+    
+}
+footer{
+    background-image: url('https://i.blogs.es/de2866/doctorwhovarios/1366_2000.jpg');
+    background-position: 0px 42%;
+    background-size:cover;
+    background-color: #003B6F;
+    height: 15vh;
+}
+footer > .gradient{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,13,14);
+background: linear-gradient(0deg, rgb(0, 13, 14) 10%, rgba(255, 255, 255, 0) 50%, rgb(0, 13, 14) 100%);
+}

@@ -1,0 +1,28 @@
+.counterBack{
+    height: 80%;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.counterBack > h2{
+    font-size: 80px;
+    letter-spacing: 1rem;
+    font-weight: 500;
+    color: gold;
+    text-shadow: 0 0 10px black, 0 0 10px hsl(49, 100%, 51%), 0 0 10px #003B6F;
+
+}
+.counterBack >h3{
+    font-family: 'Doctor Who', sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+    letter-spacing: 0.6rem;
+    font-weight: 400;
+    text-shadow: 0 0 10px black, 0 0 10px hsl(208, 100%, 22%), 0 0 10px #003B6F;
+}

@@ -1,0 +1,8 @@
+h2{
+    font-family: 'Doctor Who', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    color: aliceblue;
+    text-shadow: 0 0 10px black, 0 0 10px hsl(208, 100%, 22%), 0 0 10px #003B6F;
+}
